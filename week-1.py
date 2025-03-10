@@ -63,14 +63,14 @@ num2 = int(input("Enter second number: "))
 operation = input("Enter Operation to perform [ / - + * ]: ")
 
 if operation == "-":
-    print(f"The Subtraction of {num1} and {num2} is {num1 - num2}")
+    print(f"{num1} - {num2} = {num1 - num2}")
 
 if operation == "/":
-    print(f"The Division of {num1} and {num2} is {num1 / num2}")
+    print(f"{num1} / {num2} = {num1 / num2}")
 
 if operation == "+":
-    print(f"The Addition of {num1} and {num2} is {num1 + num2}")
+    print(f"{num1} + {num2} = {num1 + num2}")
 
 if operation == "*":
-    print(f"The multiplication of {num1} and {num2} is {num1 * num2}")
+    print(f"{num1} x {num2} = {num1 * num2}")
 
